@@ -33,6 +33,13 @@ input[type="radio"], input[type="checkbox"] {
 #aboutTabsContent {
   padding-top: 10px;
 }
+::selection {
+  background: #FFB7B7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FFB7B7; /* Gecko Browsers */
+}
+
 .white {
   color: #FFFFFF;
 }
@@ -41,6 +48,10 @@ input[type="radio"], input[type="checkbox"] {
 }
 .navbar a:focus {
   outline: 0;
+}
+.navbar {
+    color: #262626;
+    background-color: #262626;
 }
 .navbar .navbar-brand {
   font-weight: bold;
@@ -125,7 +136,7 @@ input[type="radio"], input[type="checkbox"] {
       hyphens: auto;
   }
   .dropdown-menu a i{
-    color: #FFFFFF;
+    color: #000000;
   }
 }
 /* Print Handling */
